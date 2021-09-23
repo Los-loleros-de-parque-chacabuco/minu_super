@@ -15,7 +15,7 @@ PALETA DE COLORES
   left: 80%;
   top: 50%;
   text-align: center;
-  color: white;
+  color: black;
 }
 .biografia2 {
   padding: 0;
@@ -34,6 +34,7 @@ p {
 }
 .sangria {
   text-indent: 40px;
+  color:black
 }
 .boton_principal {
   color: black;
@@ -90,7 +91,7 @@ p {
   padding: 30px 18px;
 }
 #cards_landscape_wrap-2 .card-flyer {
-  background: #ffffff;
+  background: #E6A3A1;
   margin-top: 50px;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -100,7 +101,7 @@ p {
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
 }
 #cards_landscape_wrap-2 .card-flyer:hover {
-  background: #fff;
+  background: #95D4AA;
   box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -138,13 +139,13 @@ p {
 .rounded2 {
   border-top: 5px solid;
   border-radius: 10px;
-  color: #19d897;
+  color: #95D4AA ;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .form {
-  background-color: white;
+  background-color: #E6A3A1;
   border-radius: 10px;
   padding: 3%;
   margin: 5%;
@@ -159,8 +160,45 @@ p {
 
 .fondo3 {
   background-color: #e6a3a1;
+  width: auto;
 }
 
 .texto{
   text-align: center;
+}
+
+/* .colorbutton{
+  background-color: #95D4AA;
+  border: #95D4AA;
+} */
+
+.miBoton { 
+  padding: 15px; 
+  background: #95D4AA; 
+  color: black; 
+  border: #95D4AA;
+  border-radius: 8px;
+} 
+.miBoton:hover { 
+  padding: 15px; 
+  background: #E6A3A1; 
+  color: #95D4AA; 
+} 
+.miBoton:active { 
+  padding: 15px; 
+  background: #95D4AA; 
+  color: #95D4AA; 
+} 
+
+.recuadro{
+  background-color: #95D4AA;
+ 
+}
+
+.apu{
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  background-color: #e6a3a1;
 }

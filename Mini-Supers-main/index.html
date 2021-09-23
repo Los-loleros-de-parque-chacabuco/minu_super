@@ -68,20 +68,22 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      
       <div id="Quienes" class="container-fluid fondo3"></div>
       <div class="container-fluid fondo3">
-          <H2  class="biografia fondo3">¿Quien soy?</H2>
+          <H2  class="recuadro biografia fondo3">¿Quien soy?</H2>
           <br>
           <br>
           <p class="sangria">Me llamos Apus Nahasapeemapetilon soys de las Indias pero vivos en Estados unidos. Soys el dueños y administradors del Kwik-E-Mart la tiendas favoritas de Homeros y su familias
           </p>
       </div>
+      <div class="fondo3"><img class="apu" src="./images/apu.jfif"  alt=""></div>
       <div id="Proyectos" class="container-fluid fondo3"></div>
-      <div class="container-fluid fondo2"></div>
+      <div class="container-fluid fondo3"></div>
       <div> 
-          <H2 class="biografia2 fondo2">Productos</H2>
+          <H2 class="biografia2 recuadro fondo3">Productos</H2>
      </div>
-     <div class="container-fluid fondo2"></div>
+     <div class="container-fluid fondo3"></div>
       <!--INICIAN LAS TARJETAS-->
       <div id="cards_landscape_wrap-2">
         <div class="container">
@@ -110,7 +112,7 @@
                                 </div>
                                 <div class="text-container">                                    
                                     <h6>Algodon de azucar</h6>
-                                    <p></p>
+                                    <p>Algodon de azucar con cono incluido, su precio es de 60$</p>
                                 </div>
                             </div>
                         </div>
@@ -210,66 +212,58 @@
     </div>  
 </div>
     </div>   <!--FINALIZAN LAS TARJETAS-->
-    <div id="Contacto" class="container-fluid fondo2"></div>
-    <div class="container-fluid fondo2">
-        <h2 class="biografia2 fondo2">Contacto</h2>
+    <div id="Contacto" class="container-fluid fondo3"></div>
+    <div class="container-fluid fondo3">
+        <h2 class="biografia2 recuadro fondo3">Contacto</h2>
     </div>
-   
-    
-    <!--INICIO DEL FORMULARIO DE CONTACTO-->
-    <div class="container contacto">      <!--LE PUSE LA CLASE CONTACTO PARA VER SI LO PODIA CENTRAR-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="well well-sm">
-                    <form class="form-horizontal" method="post">
-                        <fieldset>
-                            <legend class="text-center header">#</legend>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <div class="col-md-12 text-center">
-                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
+
+
+    <div id="Contacto" class="form">
+        <h1> Contáctanos y potenciemos tu negocio</h1>
+          <h6>Todo gran proyecto comienza por un pequeño contacto.</h6>
+      <br>
+      <hr class="rounded2">
+        <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Ej: ejemplo@correo.com">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder="Ej: Facundo Duran ">
+          </div>
         </div>
-    </div>
+        <div class="form-group">
+          <label for="inputAddress">Direccion</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Ej: Tinogasta 2867">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Numero</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Ej: 1234567">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Localidad</label>
+            <input type="text" class="form-control" placeholder="Ej: CABA" id="Ej:CABA">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Ciudad</label>
+            <input type="text" class="form-control" placeholder="Ej: Buenos Aires" id="Ciudad">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input " type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              ¿Desea recibir promociones?
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary miBoton">Ingresar</button>
+        </form>
+      </div>
+
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
