@@ -125,20 +125,20 @@ p {
   text-transform: uppercase;
   font-family: "Roboto Black", sans-serif;
   letter-spacing: 1px;
-  color: #00acc1;
+  color: #95d4aa;
 }
 
 .contactanos {
   text-decoration: none;
   margin-left: 10px;
-  color: #19d897;
-  border: #19d897;
+  color: #95d4aa;
+  border: #95d4aa;
 }
 
 .rounded2 {
   border-top: 5px solid;
   border-radius: 10px;
-  color: #19d897;
+  color: #95d4aa;
   margin-left: 5%;
   margin-right: 5%;
 }
