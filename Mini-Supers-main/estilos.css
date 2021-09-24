@@ -156,10 +156,15 @@ p {
 .letra {
   color: black;
 }
-
+.letra2{
+  font-size: 21px;
+}
+.letra3{
+  font-size: 22px;
+}
 .fondo3 {
   background-color: #e6a3a1;
 }
 .fondo4{
-  background-color: white;
+  background-color: gray;
 }
