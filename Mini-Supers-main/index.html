@@ -11,11 +11,9 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./estilos.css">
     <title>La golosineria</title>
-    <style>
-        .navbar-nav {
-            margin-left: auto;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -95,19 +93,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="">
-                        <div class="card-flyer">
-                            <div class="text-box">
-                                <div class="image-box">
-                                    <img src="./images/chupetines.jpeg" alt="" />
-                                </div>
-                                <div class="text-container">
-                                    <h6>Title 01</h6>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                </div>
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src="./images/chupetines.jpeg" alt="" onclick="chupetines()" />
+                            </div>
+                            <div class="text-container">
+                                <h6>Title 01</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
                         </div>
+                    </div>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -115,7 +112,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="./images/algodón_de_azucar.jpeg" alt="" />
+                                    <img src="./images/algodón_de_azucar.jpeg" alt="" onclick="algodon()" />
                                 </div>
                                 <div class="text-container">
                                     <h6>Title 02</h6>
@@ -131,7 +128,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="./images/chupetines_redondos.jpeg" alt="" />
+                                    <img src="./images/chupetines_redondos.jpeg" alt="" onclick="paletas()" />
                                 </div>
 
                                 <div class="text-container">
@@ -148,7 +145,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="./images/caramelos.jpeg" alt="" />
+                                    <img src="./images/caramelos.jpeg" alt="" onclick="caramelos()" />
                                 </div>
                                 <div class="text-container">
                                     <h6>Title 04</h6>
@@ -164,7 +161,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="./images/donas.jpg" alt="" />
+                                    <img src="./images/donas.jpg" alt="" onclick="rosquillas()" />
                                 </div>
                                 <div class="text-container">
                                     <h6>Rosquillas</h6>
@@ -181,7 +178,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="./images/krusty.jpg" alt="" />
+                                    <img src="./images/krusty.jpg" alt="" onclick="cereal()" />
                                 </div>
                                 <div class="text-container">
                                     <h6>Cereal Krusty</h6>
@@ -198,7 +195,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="./images/panqueques.jpeg" alt="" />
+                                    <img src="./images/panqueques.jpeg" alt="" onclick="waffles()" />
                                 </div>
                                 <div class="text-container">
                                     <h6>Waffles</h6>
@@ -214,7 +211,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="./images/squishee.jpg" alt="" />
+                                    <img src="./images/squishee.jpg" alt="" onclick="squisher()" />
                                 </div>
                                 <div class="text-container">
                                     <h6>Malteada Squisher</h6>
@@ -297,7 +294,8 @@
             <button type="submit" class="btn btn-primary boton_principal" onclick="contactar()">Contactars</button>
         </form>
     </div>
-    <script src="index.js"></script>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -307,6 +305,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
