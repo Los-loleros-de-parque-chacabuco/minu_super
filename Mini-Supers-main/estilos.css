@@ -48,7 +48,7 @@ p {
 .boton_principal:hover {
   padding: 15px;
   background: #e6a3a1;
-  color: #95d4aa;
+  color: black;
 }
 .boton_principal:active {
   padding: 15px;
